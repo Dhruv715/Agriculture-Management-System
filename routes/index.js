@@ -20,7 +20,7 @@ const upload = multer({storage : storage});
 
 
 // ADMIN ADD
-router.post('/AddAdmin',addNewAdmin);
+// router.post('/AddAdmin',addNewAdmin);
 
 // LOGIN ADMIN
 router.post('/',loginAdmin);

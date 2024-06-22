@@ -1,7 +1,7 @@
 const User  = require('../model/user');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-
+// All User Related Controller
 exports.RegisterUser = async (req, res) => {
     try {
         const Emailcheck = await User.find({ email: req.body.email });

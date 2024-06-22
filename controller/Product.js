@@ -1,5 +1,5 @@
 const Product  = require('../model/Product');
-
+// All Product CRUD Related controller
 exports.addProduct = async(req,res)=>{
     try {
         if (req.files) {

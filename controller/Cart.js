@@ -2,7 +2,7 @@ const Cart = require('../model/Cart');
 const jwt = require('jsonwebtoken');
 const User  = require('../model/user');
 const Product = require('../model/Product');
-
+// All Cart related Controller
 exports.addCart = async (req, res) => {
     try {
         const token = req.headers.auth;

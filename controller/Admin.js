@@ -1,7 +1,7 @@
 const Admin = require('../model/Admin');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-
+// All Admin Related Like Login Controller
 exports.addNewAdmin = async (req, res) => {
   const { Adminname, email, password, role } = req.body;
   try {

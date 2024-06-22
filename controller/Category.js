@@ -1,5 +1,5 @@
 const Category = require('../model/Category');
-
+// All Category Related Controller
 exports.addCategory = async (req, res) => {
     try {
       const { name, description } = req.body;
